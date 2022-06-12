@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [DependentonGroup]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.inetbanking.testCases.DependentGroup">
+        <methods>
+          <include name="test3"/>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.DependentGroup -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [DependentonGroup] -->

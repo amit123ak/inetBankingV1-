@@ -3,13 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="com.inetbanking.testCases.ExtentHtmlReporterDemo">
+      <class name="com.inetbanking.testCases.GoogleSearchTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="HtlmReport"/>
           <include name="setup"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.inetbanking.testCases.ExtentHtmlReporterDemo -->
+      </class> <!-- com.inetbanking.testCases.GoogleSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
